@@ -1,9 +1,9 @@
 # OSS Skeleton
 
 ![License](https://img.shields.io/github/license/mxpanf/oss-skeleton?style=flat-square)
-![Build Status](https://img.shields.io/github/actions/workflow/status/mxpanf/oss-skeleton/main.yml?style=flat-square&label=CI)
+![Build Status](https://img.shields.io/github/actions/workflow/status/mxpanf/oss-skeleton/main.yml?style=flat-square&label=Build)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg?style=flat-square)](CONTRIBUTING.md)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?style=flat-square)](CODE_OF_CONDUCT.md)n)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?style=flat-square)](CODE_OF_CONDUCT.md))
 
 > **A clean, universal directory structure and standard file baseline for seamless Open Source project starts.**
 
