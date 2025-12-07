@@ -1,9 +1,9 @@
 # OSS Skeleton
 
-![License](https://img.shields.io/github/license/mxpanf/oss-skeleton?style=flat-square)
-![Build Status](https://img.shields.io/github/actions/workflow/status/mxpanf/oss-skeleton/main.yml?style=flat-square&label=Build)
+[![License](https://img.shields.io/github/license/mxpanf/oss-skeleton?style=flat-square&logo=opensourceinitiative&logoColor=white&color=999999)](./LICENSE)
+![CI](https://img.shields.io/github/actions/workflow/status/mxpanf/oss-skeleton/main.yml?style=flat-square&logo=github&labelColor=31383f&logoColor=959da5)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg?style=flat-square)](CONTRIBUTING.md)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?style=flat-square)](CODE_OF_CONDUCT.md)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.1-4baaaa.svg?style=flat-square)](CODE_OF_CONDUCT.md)
 
 > **A clean, universal directory structure and standard file baseline for seamless Open Source project starts.**
 
@@ -34,7 +34,7 @@ It is designed to be **language-agnostic** (suitable for Python, JS, Go, Rust, e
 * **📂 Organized Structure**: A dedicated `docs/` folder for blueprints, roadmaps, and assets, keeping your root directory clean.
 * **🛡️ Security First**: Includes a `SECURITY.md` policy template to establish a safe reporting channel from day one.
 
-## 📂 Directory Structure
+## Directory Structure
 
 This skeleton provides the following file tree:
 
@@ -68,7 +68,7 @@ This skeleton provides the following file tree:
 3.  **Perform the Checklist** below to personalize the repo.
 4.  **Start Coding**: Place your source code in `src/` (or rename it to your package name).
 
-### ✅ Post-Creation Checklist
+### Post-Creation Checklist
 
 After creating a new repository from this template, **you must update the following files** to match your project details:
 
