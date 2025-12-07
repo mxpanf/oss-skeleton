@@ -1,0 +1,15 @@
+Project Skeleton
+Copyright <year> <name>
+
+=========================================================================
+
+## Third Party Notices
+
+If this project bundles or uses source code from other open source projects,
+their attribution notices must be listed below.
+
+[EXAMPLE ENTRY - REMOVE OR REPLACE]
+This product includes code from "SomeLibrary"
+Copyright (c) 2023 SomeLibrary Authors
+Licensed under the MIT License
+https://github.com/somelibrary/core
