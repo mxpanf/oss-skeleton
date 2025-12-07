@@ -17,15 +17,13 @@
         <meta property="og:description" content="A simple, organized foundation for your Open Source projects." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://github.com/mxpanf/oss-skeleton/" />
-        <meta property="og:image" content="https://placehold.co/1200x630/1e293b/e2e8f0?text=OSS+Skeleton" />
+        <meta property="og:image" content="https://repository-images.githubusercontent.com/1111769063/24c41c7c-3cf7-43d2-a553-a8cfa1459139" />
 
         <!-- Twitter Card -->
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:creator" content="@MaksimPanfilov" />
         <meta name="twitter:title" content="OSS Skeleton: Project Structure" />
         <meta name="twitter:description" content="A simple foundation for starting Open Source projects." />
-        <meta name="twitter:site" content="@MaksimPanfilov" />
-        <meta name="twitter:image" content="https://placehold.co/1200x675/1e293b/e2e8f0?text=OSS+Skeleton" />
+        <meta name="twitter:image" content="https://repository-images.githubusercontent.com/1111769063/24c41c7c-3cf7-43d2-a553-a8cfa1459139" />
 
         <!-- Favicon -->
         <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90' fill='%2322d3ee'%3E%E2%9A%99%3C/text%3E%3C/svg%3E" />
@@ -63,8 +61,23 @@
         class="bg-slate-900 text-slate-200 font-sans antialiased selection:bg-cyan-500 selection:text-white"
     >
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
-            <!-- Language Toggle -->
-            <div class="text-right">
+            <!-- Repo Button + Language Toggle -->
+            <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                <a
+                    href="https://github.com/mxpanf/oss-skeleton"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg border border-cyan-500/40 text-cyan-200 font-semibold transition bg-cyan-500/5 hover:bg-cyan-500/20 hover:text-white"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                        <path
+                            fill-rule="evenodd"
+                            d="M12 2C6.477 2 2 6.486 2 12.021c0 4.425 2.865 8.178 6.839 9.504.5.092.682-.217.682-.482 0-.237-.01-1.023-.014-1.856-2.782.605-3.369-1.197-3.369-1.197-.454-1.158-1.11-1.467-1.11-1.467-.908-.62.069-.607.069-.607 1.003.07 1.531 1.03 1.531 1.03.893 1.535 2.344 1.091 2.914.834.091-.648.35-1.09.636-1.341-2.221-.254-4.555-1.116-4.555-4.964 0-1.096.389-1.992 1.027-2.694-.103-.254-.446-1.276.098-2.66 0 0 .84-.27 2.75 1.028A9.379 9.379 0 0 1 12 6.844a9.37 9.37 0 0 1 2.504.337c1.909-1.298 2.748-1.028 2.748-1.028.546 1.384.203 2.406.1 2.66.64.702 1.026 1.598 1.026 2.694 0 3.857-2.338 4.707-4.566 4.957.359.31.679.92.679 1.855 0 1.338-.012 2.417-.012 2.743 0 .268.18.58.688.481A10.024 10.024 0 0 0 22 12.02C22 6.486 17.523 2 12 2Z"
+                            clip-rule="evenodd"
+                        />
+                    </svg>
+                    View Repository
+                </a>
                 <button
                     id="lang-toggle"
                     class="px-3 py-1 bg-slate-800 text-slate-400 hover:text-cyan-400 rounded-lg text-sm font-semibold border border-slate-700 transition"
@@ -89,9 +102,10 @@
 
                     <!-- Badges Preview (Visual Material) -->
                     <div class="flex flex-wrap justify-center gap-3 mt-6 opacity-90">
-                        <img src="https://img.shields.io/github/license/mxpanf/oss-skeleton?style=flat-square" alt="License" />
+                        <img src="https://img.shields.io/github/license/mxpanf/oss-skeleton?style=flat-square&logo=opensourceinitiative&logoColor=white&color=999999" alt="License" />
                         <!-- Для реального CI нужно указать конкретный workflow, здесь пример -->
-                        <img src="https://img.shields.io/github/actions/workflow/status/mxpanf/oss-skeleton/main.yml?style=flat-square&label=Build" alt="Build Status" />
+                        <img src="https://img.shields.io/github/actions/workflow/status/mxpanf/oss-skeleton/main.yml?style=flat-square&logo=github&labelColor=31383f&logoColor=959da5" alt="Build Status" />
+                        <img src="https://img.shields.io/github/stars/mxpanf/oss-skeleton?style=flat-square&logo=github&label=Stars" alt="GitHub Stars" />
                         <img src="https://img.shields.io/badge/PRs-welcome-orange.svg?style=flat-square" alt="PRs Welcome" />
                         <img src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?style=flat-square" alt="Code of Conduct" />
                     </div>
@@ -110,9 +124,10 @@
 
                     <!-- Badges Preview RU -->
                     <div class="flex flex-wrap justify-center gap-3 mt-6 opacity-90">
-                        <img src="https://img.shields.io/github/license/mxpanf/oss-skeleton?style=flat-square" alt="License" />
-                        <img src="https://img.shields.io/github/actions/workflow/status/mxpanf/oss-skeleton/main.yml?style=flat-square&label=Сборка" alt="Статус Сборки" />
-                        <img src="https://img.shields.io/badge/PRs-welcome-orange.svg?style=flat-square" alt="PRs Welcome" />
+                        <img src="https://img.shields.io/github/license/mxpanf/oss-skeleton?style=flat-square&logo=opensourceinitiative&logoColor=white&color=999999&label=Лицензия" alt="License" />
+                        <img src="https://img.shields.io/github/actions/workflow/status/mxpanf/oss-skeleton/main.yml?style=flat-square&logo=github&labelColor=31383f&logoColor=959da5&label=Сборка" alt="Статус Сборки" />
+                        <img src="https://img.shields.io/github/stars/mxpanf/oss-skeleton?style=flat-square&logo=github&label=%D0%97%D0%B2%D0%B5%D0%B7%D0%B4%D1%8B" alt="Количество звёзд" />
+                        <img src="https://img.shields.io/badge/PRs-приветствуются-orange.svg?style=flat-square" alt="PRs Welcome" />
                         <img src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?style=flat-square" alt="Code of Conduct" />
                     </div>
                 </div>
